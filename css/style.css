@@ -13,9 +13,40 @@ body {
 	background-color: #222;
 	font-family: sans-serif;
 }
-.icon{
-    width: 10%;
+
+.font {
+	margin-bottom: 4%;
+	color: rgb(133, 132, 132);
 }
+
+.font:hover {
+	color: white;
+	font-weight: bold;
+}
+
+.logo {
+	width: 70%;
+	margin-top: 1rem;
+}
+
+.logo:hover {
+	width: 75%;
+}
+
+.icon {
+	width: 10%;
+}
+
+.add {
+	padding: 5%;
+	color: rgb(133, 132, 132);
+}
+
+.add:hover {
+	color: white;
+	font-weight: bold;
+}
+
 #app-wrapper {
 	height: 100vh;
 	display: flex;
@@ -25,39 +56,193 @@ body {
 #app-sidebar,
 #app-main {
 	height: calc(100% - var(--toolbar-height));
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+#app-main {
+	overflow: auto;
 }
 
 #app-sidebar {
 	color: white;
 	width: var(--sidebar-width);
-	overflow: auto;
 }
 
 #app-main {
-	background-color: crimson;
-	width: calc( 100% - var(--sidebar-width) );
+	background-color: rgb(29, 27, 28);
+	width: calc(100% - var(--sidebar-width));
+
 }
 
 #app-toolbar {
 	background-color: orange;
 	height: var(--toolbar-height);
 	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
 }
 
 #sidebar-content {
 	height: calc(100% - 3rem);
-	overflow: auto;
 }
-h5{
-    margin-top:1rem;
+
+h5 {
+	margin-top: 1rem;
+	margin-bottom: 4%;
 }
+
 #playlist-content {
-	display: block;
+	display: flex;
+	flex-direction: column;
 	height: 8rem;
-	overflow: auto;
+}
+
+.install {
+	font-size: 10px;
+}
+
+.install:hover {
+	font-size: 13px;
+	color: white;
+	font-weight: bold;
+}
+
+.nuova {
+	color: rgb(133, 132, 132);
+}
+
+.nuova:hover {
+	color: white;
+	font-weight: bold;
+}
+
+.new {
+	list-style: none;
+	margin-top: 1rem;
+	color: rgb(133, 132, 132);
+}
+
+.new:hover {
+	color: white;
+	font-weight: bold;
 }
 
 #sidebar-user {
 	height: 3rem;
+	color: rgb(133, 132, 132);
+}
+
+.profile {
+	width: 15%;
+	background-color: rgb(133, 132, 132);
+	border-radius: 50%;
+	margin-right: 1rem;
+}
+
+.bar {
+	display: flex;
+	flex-direction: row-reverse;
+	margin-top: 1rem;
+}
+
+.upgrade {
+	padding: 10px;
+	background-color: black;
 	color: white;
+	border-radius: 30px;
+	margin-right: 2rem;
+	border-style: solid;
+	border-color: white;
+}
+
+.upgrade:hover {
+	font-weight: bold;
+}
+
+.navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.nav {
+	list-style: none;
+	padding-right: 2rem;
+	color: rgb(133, 132, 132);
+}
+
+.nav:hover {
+	color: white;
+	font-weight: bold;
+}
+
+.recently {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.first-card {
+	width: 13%;
+	margin-right: 2%;
+	color: white;
+}
+
+.image:hover {
+	opacity: 0.2;
+
+}
+
+.image {
+	width: 100%;
+	position: relative;
+	display: block;
+}
+
+h2 {
+	color: white;
+	margin-bottom: 1rem;
+}
+
+.subt {
+	color: rgb(133, 132, 132);
+	font-size: 10px;
+}
+
+.second {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.second-card {
+	width: 13%;
+	margin-right: 2%;
+	color: white;
+}
+
+.third {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.third-card {
+	width: 13%;
+	margin-right: 2%;
+	color: white;
+	margin-bottom: 5rem;
+}
+
+.imag {
+	width: 100%;
+	border-radius: 50%;
+	
+}
+
+.imag:hover {
+	opacity: 0.2;
+
 }
