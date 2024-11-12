@@ -244,75 +244,88 @@ h2 {
 	opacity: 0.2;
 }
 
-.footer{
+.footer {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
 
-.last-icon{
+.last-icon {
 	width: 20%;
 	padding-left: 1rem;
 	padding-top: 1rem;
-	
+
 }
 
-.music{
+.music {
 	display: flex;
 	flex-direction: row;
 }
 
-.title{
+.title {
 	padding-top: 1rem;
 	color: white;
 }
 
-.capo{
-display: flex;
-flex-direction: column;
+.capo {
+	display: flex;
+	flex-direction: column;
 }
 
-.tasti{
+.tasti {
 	padding-left: 3rem;
 	padding-top: 1rem;
 }
 
-.icone{
+.icone {
 	margin-right: 5px;
 	color: white;
 }
 
-.right{
+.right {
 	padding-top: 1rem;
 	margin-right: 1rem;
 }
 
-.bar-progress{
+.bar-progress {
 	color: white;
 }
 
 input[type="range"] {
-    -webkit-appearance: none; /* Disabilita l'aspetto predefinito di alcuni browser */
-    width: 60%; /* Larghezza del range slider */
-    height: 8px; /* Altezza della barra */
-    background: #ddd; /* Colore dello sfondo della barra */
-    outline: none; /* Rimuove il bordo esterno */
-    border-radius: 5px; /* Arrotonda gli angoli della barra */
-    opacity: 0.7; /* Opacità della barra */
-    transition: opacity 0.2s; /* Transizione per l'opacità */
+	-webkit-appearance: none;
+	/* Disabilita l'aspetto predefinito di alcuni browser */
+	width: 60%;
+	/* Larghezza del range slider */
+	height: 8px;
+	/* Altezza della barra */
+	background: #ddd;
+	/* Colore dello sfondo della barra */
+	outline: none;
+	/* Rimuove il bordo esterno */
+	border-radius: 5px;
+	/* Arrotonda gli angoli della barra */
+	opacity: 0.7;
+	/* Opacità della barra */
+	transition: opacity 0.2s;
+	/* Transizione per l'opacità */
 }
 
 input[type="range"]:hover {
-    opacity: 1;
+	opacity: 1;
 }
+
 input[type="range"]::-webkit-slider-thumb {
-    -webkit-appearance: none; /* Disabilita l'aspetto predefinito di alcuni browser */
-    appearance: none;
-    width: 20px; /* Larghezza del cursore */
-    height: 20px; /* Altezza del cursore */
-    background: blue; /* Colore del cursore */
-    border-radius: 50%; /* Arrotonda il cursore */
-    cursor: pointer; /* Cambia il puntatore quando ci si passa sopra */
+	-webkit-appearance: none;
+	/* Disabilita l'aspetto predefinito di alcuni browser */
+	appearance: none;
+	width: 20px;
+	/* Larghezza del cursore */
+	height: 20px;
+	/* Altezza del cursore */
+	background: blue;
+	/* Colore del cursore */
+	border-radius: 50%;
+	/* Arrotonda il cursore */
+	cursor: pointer;
+	/* Cambia il puntatore quando ci si passa sopra */
 }
-
-
